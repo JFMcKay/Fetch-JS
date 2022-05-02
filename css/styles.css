@@ -1,0 +1,39 @@
+
+body {
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+h1 {
+    text-align: center; 
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    margin: 1.5em auto;
+    padding: 1em;
+    width: 200px;
+    background-color: #ddd;
+}
+div {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+input {
+    width: 100%;
+    padding: 1em;
+    margin: 0 2em;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
